@@ -1,0 +1,3 @@
+no other calss can instance from it
+only child class canb ecreated from it
+no other class can be created from it
