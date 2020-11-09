@@ -1,0 +1,28 @@
+JAVA has three type of exceptions
+1.CHECKED
+-- we ancipate when the program might run and fix it
+-ex
+read data from a file
+ --file does not exist
+ -- program is not terminated
+ -- file does not exist
+ -- checked them during compile time
+2.UNCHECKED
+-- rn time exception
+-- compiler can not check thesse sadly
+-- happends during programming errors
+3. ERRR
+--static overflow
+-- outof memeory
+
+Exception Ranking
+--THowable -Describe common characters for all kind of errors
+   -- ITS the parent of checked,exception and error
+   -- it gives character of trace and error message
+   -- Error-repsresnt external to application
+   -- exception (parent of checked and unchecked exception)
+       -- so in a way both checked and unchked exception are siblings
+   -- runtime exception comes from UNchekced exception
+      -- grandparent is exception
+        -- parent is unchekced excepiton
+
