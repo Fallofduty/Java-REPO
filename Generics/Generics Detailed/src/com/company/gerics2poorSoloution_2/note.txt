@@ -1,0 +1,4 @@
+-- poor soloution is to use objects
+-- as it makes it easier to use any objects
+-- problem with this implemetiation does not type cast it
+--

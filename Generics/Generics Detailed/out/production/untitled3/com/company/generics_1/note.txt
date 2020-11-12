@@ -1,0 +1,5 @@
+-- in here there are lot of code repetion for list
+-- user list
+-- as list only asks for number such as int
+-- what if ask for objects and or even string it has to be remodified all the way.
+-- there is lot of code repetetion
