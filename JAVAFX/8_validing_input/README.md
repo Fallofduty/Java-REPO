@@ -4,7 +4,7 @@ NORMAL OUTPUT OF GETTING input
 
 
 
-NOT A NUMBER INPUT 
+
 ![](IMG/notnum.png)
 
 
