@@ -1,0 +1,41 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Label?>
+<BorderPane fx:controller="sample.Controller"
+            xmlns:fx="http://javafx.com/fxml">
+    <top>
+        <Label text="this is the label in the top positon" alignment="center"
+               BorderPane.alignment="center"
+        style="-fx-border-color: blue;-fx-border-width: 3;-fx-border-style: dashed"/>
+        <!--BorderPane.alignment="center" this lets things to be in center
+          bordderpayne does not have acess to alignemtn byitself
+          but its chld does
+          -->
+    </top>
+    <left>
+        <Label text="this is a label in the left position" alignment="center"/>
+    </left>
+    <right>
+        <Label text="this is the right positoin" alignment="center"/>
+    </right>
+
+    <center>
+        <Label text="this label in the center position" alignment="center"/>
+    </center>
+    <bottom>
+<HBox spacing="10" alignment="top_right">
+    <!-- puts it to the bottom  -->
+    <padding>
+        <Insets bottom="10" right="10"/>
+        <!-- creates bottom 10 and right 10 -->
+
+    </padding>
+    <Button text="okay" prefWidth="90"/>
+    <Button text="cancel" prefWidth="90"/>
+    <Button text="help" prefWidth="90"/>
+</HBox>
+    </bottom>
+<!-- bottom puts the button at the bottom -->
+</BorderPane>
